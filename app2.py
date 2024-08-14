@@ -11,7 +11,7 @@ from langchain.prompts import PromptTemplate
 
 
 
-key=os.environ['GOOGLE_API_KEY']
+key=os.environ['GEMINI_API']
 genai.configure(api_key=key)
 
 
